@@ -1,0 +1,241 @@
+[
+    {
+        "name": "Charlie's Painting",
+        "videoFile": "charliepainting.mp4",
+        "chromakeyColor": "#00ff00",
+        "chromakeyThreshold": 0.5,
+        "chromakeySmoothing": 0.1,
+        "topLeft_X": 38.68,
+        "topLeft_Y": 20.6,
+        "topRight_X": 87.64,
+        "topRight_Y": 18.94,
+        "bottomRight_X": 84.93,
+        "bottomRight_Y": 78.94,
+        "bottomLeft_X": 35.04,
+        "bottomLeft_Y": 72.46
+    },
+    {
+        "name": "Bowser's Painting",
+        "videoFile": "bowserpainting.mp4",
+        "chromakeyColor": "#00ff00",
+        "chromakeyThreshold": 0.57,
+        "chromakeySmoothing": 0.1,
+        "frameChanges": [
+            {    
+                "frame": 0,
+                "interpolate": true, 
+                "topLeft_X": -150,
+                "topLeft_Y": -150,
+                "topRight_X": 250,
+                "topRight_Y": -150,
+                "bottomRight_X": 250,
+                "bottomRight_Y": 250,
+                "bottomLeft_X": -150,
+                "bottomLeft_Y": 250
+            },
+            {    
+                "frame": 528,
+                "interpolate": false, 
+                "topLeft_X": -150,
+                "topLeft_Y": -150,
+                "topRight_X": 250,
+                "topRight_Y": -150,
+                "bottomRight_X": 250,
+                "bottomRight_Y": 250,
+                "bottomLeft_X": -150,
+                "bottomLeft_Y": 250
+            },
+            {    
+                "frame": 529,
+                "interpolate": false,
+                "topLeft_X": 43.07,
+                "topLeft_Y": 24.76,
+                "topRight_X": 59.45,
+                "topRight_Y": 22.82,
+                "bottomRight_X": 56.93,
+                "bottomRight_Y": 81.31,
+                "bottomLeft_X": 41.15,
+                "bottomLeft_Y": 76.7
+            }
+        ]
+    },
+    {
+        "name": "Boss' Best Thing",
+        "videoFile": "bossbestthing.mp4",
+        "chromakeyColor": "#00ff00",
+        "chromakeyThreshold": 0.39,
+        "chromakeySmoothing": 0.27,
+        "topLeft_X": 67.16,
+        "topLeft_Y": 2.77,
+        "topRight_X": 78.92,
+        "topRight_Y": 1.02,
+        "bottomRight_X": 78.82,
+        "bottomRight_Y": 14.79,
+        "bottomLeft_X": 67.35,
+        "bottomLeft_Y": 16.19
+    },
+    {
+        "name": "Carol Hates That Painting.",
+        "videoFile": "carolpainting.mp4",
+        "chromakeyColor": "#00ff00",
+        "chromakeyThreshold": 0.68,
+        "chromakeySmoothing": 0.17,
+        "topLeft_X": 12.06,
+        "topLeft_Y": 5.97,
+        "topRight_X": 44.02,
+        "topRight_Y": 6.67,
+        "bottomRight_X": 44.12,
+        "bottomRight_Y": 55.86,
+        "bottomLeft_X": 16.08,
+        "bottomLeft_Y": 75.53
+    },
+    {
+        "name": "Glep Channel Surfs",
+        "videoFile": "glepchannels.mp4",
+        "chromakeyColor": "#001eff",
+        "chromakeyThreshold": 0.5,
+        "chromakeySmoothing": 0.16,
+        "topLeft_X": 44.9,
+        "topLeft_Y": 8.52,
+        "topRight_X": 85.98,
+        "topRight_Y": 5.38,
+        "bottomRight_X": 86.27,
+        "bottomRight_Y": 55.58,
+        "bottomLeft_X": 45.1,
+        "bottomLeft_Y": 53.83
+    },
+    {
+        "name": "Did it again, James.",
+        "videoFile": "jamesphoto.mp4",
+        "chromakeyColor": "#11ff00",
+        "chromakeyThreshold": 0.59,
+        "chromakeySmoothing": 0.16,
+        "topLeft_X": 35.29,
+        "topLeft_Y": 6.78,
+        "topRight_X": 71.47,
+        "topRight_Y": 9.56,
+        "bottomRight_X": 69.9,
+        "bottomRight_Y": 86.08,
+        "bottomLeft_X": 32.84,
+        "bottomLeft_Y": 84.34
+    },
+    {
+        "name": "Speed Gets Freaked",
+        "videoFile": "speedwtf.mp4",
+        "chromakeyColor": "#00ff00",
+        "chromakeyThreshold": 0.6,
+        "chromakeySmoothing": 0.25,
+        "topLeft_X": 20.29,
+        "topLeft_Y": 9.91,
+        "topRight_X": 94.12,
+        "topRight_Y": 9.91,
+        "bottomRight_X": 94.22,
+        "bottomRight_Y": 83.81,
+        "bottomLeft_X": 19.8,
+        "bottomLeft_Y": 83.99
+    },
+    {
+        "name": "The Amazing Digital Window",
+        "videoFile": "tadc_window.mp4",
+        "chromakeyColor": "#00ff00",
+        "chromakeyThreshold": 0.41,
+        "chromakeySmoothing": 0.25,
+        "frameChanges":[
+            {
+                "frame": 0,
+                "interpolate": true,
+                "topLeft_X": 0.2,
+                "topLeft_Y": -100.91,
+                "topRight_X": 100.49,
+                "topRight_Y": -100.47,
+                "bottomRight_X": 100.39,
+                "bottomRight_Y": 87.12,
+                "bottomLeft_X": -0.2,
+                "bottomLeft_Y": 84.86
+            },
+            {
+                "frame": 121,
+                "interpolate": false,
+                "topLeft_X": 0.2,
+                "topLeft_Y": -100.91,
+                "topRight_X": 100.49,
+                "topRight_Y": -100.47,
+                "bottomRight_X": 100.39,
+                "bottomRight_Y": 87.12,
+                "bottomLeft_X": -0.2,
+                "bottomLeft_Y": 84.86
+            },
+            {
+                "frame": 122,
+                "interpolate": false,
+                "topLeft_X": 19.9,
+                "topLeft_Y": 5.21,
+                "topRight_X": 78.73,
+                "topRight_Y": 6.43,
+                "bottomRight_X": 81.18,
+                "bottomRight_Y": 92,
+                "bottomLeft_X": 16.57,
+                "bottomLeft_Y": 92.53
+            }
+        ]
+    },{
+        "name": "Hughie's Files",
+        "videoFile": "victoriaphone.mp4",
+        "chromakeyColor": "#00ff00",
+        "chromakeyThreshold": 0.15,
+        "chromakeySmoothing": 0.1,
+        "topLeft_X": 50.78,
+        "topLeft_Y": -12.59,
+        "topRight_X": 74.71,
+        "topRight_Y": 4.12,
+        "bottomRight_X": 50.59,
+        "bottomRight_Y": 109.53,
+        "bottomLeft_X": 28.43,
+        "bottomLeft_Y": 90.24
+    },
+    {
+        "name": "Philomena Is Unenthused",
+        "videoFile": "whatisthis.mp4",
+        "chromakeyColor": "#00ff00",
+        "chromakeyThreshold": 0.58,
+        "chromakeySmoothing": 0.1,
+        "frameChanges": [
+            {    
+                "frame": 0,
+                "interpolate": true, 
+                "topLeft_X": -100.86,
+                "topLeft_Y": -100.08,
+                "topRight_X": 47.53,
+                "topRight_Y": -80.43,
+                "bottomRight_X": 47.36,
+                "bottomRight_Y": 148.45,
+                "bottomLeft_X": -80.18,
+                "bottomLeft_Y": 148.62
+            },
+            {    
+                "frame": 76,
+                "interpolate": false, 
+                "topLeft_X": -100.86,
+                "topLeft_Y": -100.08,
+                "topRight_X": 47.53,
+                "topRight_Y": -80.43,
+                "bottomRight_X": 47.36,
+                "bottomRight_Y": 148.45,
+                "bottomLeft_X": -80.18,
+                "bottomLeft_Y": 148.62
+            },
+            {    
+                "frame": 77,
+                "interpolate": false, 
+                "topLeft_X": 25.03,
+                "topLeft_Y": 7,
+                "topRight_X": 82.34,
+                "topRight_Y": 7,
+                "bottomRight_X": 83.27,
+                "bottomRight_Y": 91.74,
+                "bottomLeft_X": 24.52,
+                "bottomLeft_Y": 93.43
+            }
+        ]
+    }
+]

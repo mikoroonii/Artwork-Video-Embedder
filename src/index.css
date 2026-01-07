@@ -1,0 +1,259 @@
+.editor-container {
+  display: flex;
+  background: #1a1a1a;
+  color: #e0e0e0;
+  min-height: 100vh;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+body, html {
+  margin: 0px;
+  padding: 0;
+}
+
+
+
+
+.sidebar {
+  width: 320px;
+  background: #252525;
+  padding: 20px;
+  border-right: 1px solid #333;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  overflow-y: auto;
+}
+
+.main-view {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Keeps timeline at bottom */
+  padding: 20px;
+  background: #0a0a0a;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.canvas-container {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0; /* Important for flex-child scaling */
+}
+
+.canvas-wrapper {
+  position: relative;
+  /* This container will now be sized by the canvas inside it */
+  display: inline-block;
+  line-height: 0;
+  box-shadow: 0 0 40px rgba(0,0,0,0.6);
+  border: 1px solid #333;
+}
+
+/* The canvas uses auto-scaling. It will try to be as large 
+  as possible without overflowing the screen or the sidebar. 
+*/
+canvas {
+  max-width: calc(100vw - 360px); 
+  max-height: 70vh; 
+  width: auto;
+  height: auto;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.control-group h3 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #888;
+  margin-bottom: 4px;
+}
+
+.input-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 0.9rem;
+}
+
+input[type="range"] {
+  flex: 1;
+  accent-color: #3b82f6;
+}
+
+.btn-primary {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.btn-primary:disabled {
+  background: #444;
+  cursor: not-allowed;
+}
+
+.progress-bar-container {
+  width: 100%;
+  height: 6px;
+  background: #333;
+  border-radius: 3px;
+  margin-top: 8px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #3b82f6;
+  transition: width 0.3s ease;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.app-header {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  flex-direction: column;
+  gap: 0;
+}
+
+.app-header h3 {
+  font-weight: 1;
+}
+.app-header h1 {
+  font-size: 1.5rem;
+  margin: 0;
+  text-transform: lowercase;
+  font-weight: 600;
+}
+
+/* Custom Range Sliders */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  height: 20px;
+}
+
+/* The Track */
+input[type="range"]::-webkit-slider-runnable-track {
+  background: #333;
+  height: 4px;
+  border-radius: 2px;
+}
+
+input[type="range"]::-moz-range-track {
+  background: #333;
+  height: 4px;
+  border-radius: 2px;
+}
+
+/* The Thumb (The draggable circle) */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  margin-top: -6px; /* Centers thumb on the track */
+  background-color: #3b82f6;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  border: 2px solid #1a1a1a;
+  transition: transform 0.1s ease-in-out;
+}
+
+input[type="range"]:active::-webkit-slider-thumb {
+  transform: scale(1.2);
+  background-color: #60a5fa;
+}
+
+/* Custom Color Picker */
+input[type="color"] {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  width: 40px;
+  height: 24px;
+  background: none;
+  cursor: pointer;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+  border: 1px solid #444;
+  border-radius: 4px;
+}
+
+/* Sidebar Sections */
+.control-group {
+  padding: 16px;
+  background: #2a2a2a;
+  border-radius: 8px;
+  border: 1px solid #333;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+.control-group,
+.preset-list {
+  scrollbar-width: 6px;
+}
+.control-group::-webkit-scrollbar,
+.preset-list::-webkit-scrollbar {
+  width: 6px;
+}
+.control-group::-webkit-scrollbar-track,
+.preset-list::-webkit-scrollbar-track {
+  background: #333;
+  border-radius: 3px;
+}
+.control-group::-webkit-scrollbar-thumb,
+.preset-list::-webkit-scrollbar-thumb {
+  background: #3b82f6;
+  border-radius: 3px;
+}
+
+/* Labels and text values */
+.input-label-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.input-value-text {
+  color: #3b82f6;
+  font-family: monospace;
+  font-size: 0.8rem;
+}
+
+.preset-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

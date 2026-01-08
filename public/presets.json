@@ -344,7 +344,7 @@
         "bottomLeft_Y": 64.54
     },
     {
-        "name": "New Preset",
+        "name": "Penta Window",
         "videoFile": "pentawindow.mp4",
         "chromakeyColor": "#00ff00",
         "chromakeyThreshold": 0.56,

@@ -257,7 +257,7 @@
         "name": "Roman Roy's Phone",
         "videoFile": "romanroy.mp4",
         "chromakeyColor": "#00ff00",
-        "chromakeyThreshold": 0.65,
+        "chromakeyThreshold": 0.58,
         "chromakeySmoothing": 0.21,
         "topLeft_X": 9.52,
         "topLeft_Y": 50.88,

@@ -357,5 +357,20 @@
         "bottomRight_Y": 82.55,
         "bottomLeft_X": -7.08,
         "bottomLeft_Y": 110.05
+    },
+    {
+        "name": "The SWASTIKA?!?",
+        "videoFile": "theswastika.mp4",
+        "chromakeyColor": "#00ff00",
+        "chromakeyThreshold": 0.6,
+        "chromakeySmoothing": 0.08,
+        "topLeft_X": -0.84,
+        "topLeft_Y": 1.22,
+        "topRight_X": 61.64,
+        "topRight_Y": 9.19,
+        "bottomRight_X": 61.81,
+        "bottomRight_Y": 76.99,
+        "bottomLeft_X": -1.5,
+        "bottomLeft_Y": 81.71
     }
 ]
